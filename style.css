@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+.head{
+    color: antiquewhite;
+} 
+
+.bg-image {
+    background-image: url("book.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back {
+    background-image: url("book.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.container{
+width: 350px; 
+  padding: 20px;
+  margin-top: 0px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+    color: white;
+  
+}
+.header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.my-row1 , .my-row2{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 30px;
+   flex-wrap: wrap;
+}
+.box-img{
+    width: 100%;
+    height:180px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+.box-heading{
+    object-fit: contain;
+    margin-top: 10px;
+    display: block;
+  font-weight: bold;
+}
+.box{
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.box:hover{
+    transform: translateY(-5px);
+}
